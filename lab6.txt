@@ -13,7 +13,7 @@ cout << setw(8) << "---------------------------" << endl;
 while (x <= x_end) {
 y = cos(x * x) + pow(sin(x), 2) + 2;
 cout << setw(10) << x << setw(15) << y << endl;
-x += h;
+x += h;  // збільшуємо x на крок
 }
 return 0;
 }
